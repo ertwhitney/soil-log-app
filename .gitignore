@@ -1,0 +1,5 @@
+# Local-only files (never published)
+.claude/
+*.soillog.json
+!sample/demo.soillog.json
+*.pdf

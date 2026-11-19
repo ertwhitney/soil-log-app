@@ -1,0 +1,39 @@
+{
+ "kind": "soil-log-project",
+ "version": 1,
+ "exported": "2026-11-19T00:00:00.000Z",
+ "project": {
+  "id": "demo0project",
+  "name": "Demo Soil Survey",
+  "applicant": "Sample Applicant",
+  "location": "Anytown, Maine",
+  "date": "2026-08-10",
+  "jobNo": "00-000",
+  "created": 1786000000000,
+  "updated": 1786000000000,
+  "pits": [
+   {
+    "id": "demo0tp1", "label": "TP-1", "type": "tp", "organic": "2", "elev": "1648", "depth": "22", "depthKind": "exploration",
+    "series": "Telos Series", "drainage": "SPD", "slope": "5", "hydric": "no", "hsg": "D",
+    "lfDepth": "12", "lfType": "gw", "profile": "3", "condition": "", "gps": null, "notes": "",
+    "horizons": [
+     {"id":"d1a","name":"A","bottom":3,"color":"10YR 2/1","textureMod":"","texture":"fsl","texText":"","grade":"","size":"","stype":"gr","structText":"","consistence":"fr","consText":"","rAbund":"","rSize":"","rContrast":"","rKind":"","redoxText":"","notes":""},
+     {"id":"d1b","name":"Bs","bottom":9,"color":"2.5Y 4/5","textureMod":"","texture":"fsl","texText":"","grade":"1","size":"","stype":"sbk","structText":"","consistence":"fr","consText":"","rAbund":"","rSize":"","rContrast":"","rKind":"","redoxText":"","notes":""},
+     {"id":"d1c","name":"BC","bottom":12,"color":"2.5Y 5/3","textureMod":"","texture":"fsl","texText":"","grade":"1","size":"","stype":"sbk","structText":"","consistence":"fi","consText":"","rAbund":"","rSize":"","rContrast":"","rKind":"","redoxText":"","notes":""},
+     {"id":"d1d","name":"BC","bottom":19,"color":"2.5Y 5/3","textureMod":"","texture":"fsl","texText":"","grade":"1","size":"","stype":"sbk","structText":"","consistence":"fi","consText":"","rAbund":"f","rSize":"","rContrast":"ft","rKind":"conc","redoxText":"","notes":""},
+     {"id":"d1e","name":"Cd","bottom":22,"color":"5Y 5/2","textureMod":"","texture":"sil","texText":"","grade":"0","size":"","stype":"ma","structText":"","consistence":"vfi","consText":"","rAbund":"c","rSize":"","rContrast":"d","rKind":"depl","redoxText":"","notes":""}
+    ]
+   },
+   {
+    "id": "demo0tp4", "label": "TP-4", "type": "tp", "organic": "3", "elev": "1600", "depth": "14", "depthKind": "exploration",
+    "series": "Monarda Series", "drainage": "PD", "slope": "3", "hydric": "yes", "hsg": "D",
+    "lfDepth": "4", "lfType": "gw", "profile": "3", "condition": "", "gps": null, "notes": "",
+    "horizons": [
+     {"id":"d4a","name":"A","bottom":3,"color":"10YR 2/1","textureMod":"","texture":"fsl","texText":"","grade":"","size":"","stype":"gr","structText":"","consistence":"fr","consText":"","rAbund":"","rSize":"","rContrast":"","rKind":"","redoxText":"","notes":""},
+     {"id":"d4b","name":"Bg","bottom":10,"color":"5Y 6/1","textureMod":"","texture":"fsl","texText":"","grade":"1","size":"","stype":"sbk","structText":"","consistence":"fi","consText":"","rAbund":"c","rSize":"","rContrast":"d","rKind":"depl","redoxText":"","notes":""},
+     {"id":"d4c","name":"Cd","bottom":14,"color":"5Y 5/1","textureMod":"","texture":"sil","texText":"","grade":"0","size":"","stype":"ma","structText":"","consistence":"vfi","consText":"","rAbund":"c","rSize":"","rContrast":"d","rKind":"depl","redoxText":"","notes":""}
+    ]
+   }
+  ]
+ }
+}
