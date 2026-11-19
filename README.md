@@ -36,18 +36,25 @@ override it per pit; the override is flagged if it disagrees.
 
 The app is plain static files: no build step, no server code, no external libraries.
 
-**GitHub Pages:** create a repository, upload the contents of this folder, then
-Settings → Pages → deploy from the main branch. Open the https URL in Chrome on the
-tablet → ⋮ menu → **Add to Home screen / Install app**. After the first load it runs
-offline.
+**Live app:** https://ertwhitney.github.io/soil-log-app/
+(GitHub repo: https://github.com/ertwhitney/soil-log-app, public, published by GitHub Pages
+from the `main` branch.)
 
-**Netlify Drop (no account setup beyond sign-in):** drag this folder onto
-app.netlify.com/drop, then open the URL on the tablet and install it the same way.
+On the tablet: open the link in Chrome → ⋮ menu → **Add to Home screen / Install app**.
+After the first load it runs offline. GPS and offline install need https (Pages provides it).
 
-GPS and offline install need https (both hosts above provide it).
+Only the app code is public. Your projects stay on the tablet and in the project files
+you save. `.gitignore` keeps `.soillog.json` project files, PDFs and `.claude/` out of the repo.
 
-**Updating:** after changing any file, bump `VERSION` in `sw.js` and upload again.
-The tablet picks up the new version on the second launch.
+**Updating:** after changing any file, bump `VERSION` in `sw.js`, then from this folder:
+
+```powershell
+git add -A; git commit -m "describe the change"; git push
+```
+
+Pages rebuilds in a minute or two. The tablet picks up the new version on the
+second launch after that. (GitHub CLI is installed at
+`%LOCALAPPDATA%\gh-cli\bin\gh.exe` if you need it.)
 
 ## Testing on this PC
 
